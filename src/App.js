@@ -9,6 +9,7 @@ import Stat from './pages/dashbord/stats';
 import Profile from './pages/dashbord/profile';
 import { Route, Routes, BrowserRouter } from 'react-router-dom';
 import Sharedlayout from './pages/sharedlayout';
+import Single from './pages/singleproduct';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Route index element={<Home/>}/>
       <Route path='about' element={<About/>}/>
       <Route path='product' element={<Product/>}/></Route>
+      <Route path='product/:productId' element={<Single/>}/>
       <Route path="*" element={<Error/>}/>
       <Route path='dashboard' element={<Dashboard/>}>
         <Route path="stats" element={<Stat/>}/>
