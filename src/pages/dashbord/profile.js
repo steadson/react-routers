@@ -1,10 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
-export default function Product(){
+export default function Profile(){
 
     return<>
-    <h1>this is the product page</h1>
+    <h1>this is the profile page from dashbord</h1>
     
     </>
 }

@@ -4,6 +4,6 @@ export default function About(){
 
     return<>
     <h1>this is the About page</h1>
-   <Link to='/product'>see product</Link>
+
     </>
 }
